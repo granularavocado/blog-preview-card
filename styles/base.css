@@ -15,3 +15,24 @@
     justify-content: center;
     align-items: center;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    border-radius: 20px;
+    background-color: var(--white);
+    padding: 24px;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+.pill {
+    background-color: var(--yellow);
+    padding: 4px 12px;
+    display: inline-block;
+    border-radius: 4px;
+}
