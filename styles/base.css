@@ -5,3 +5,13 @@
     --gray-950: #111111;
     --white: #FFFFFF;
 }
+
+.page {
+    background-color: var(--yellow);
+    min-height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
