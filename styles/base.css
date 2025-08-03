@@ -8,6 +8,9 @@
 
 body {
     font-family: "Figtree", sans-serif;
+    letter-spacing: 0;
+    line-height: 1.5;
+    color: var(--gray-950);
 }
 
 .page {
@@ -21,6 +24,7 @@ body {
 }
 
 .wrapper {
+    max-width: 384px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -30,6 +34,12 @@ body {
     padding: 24px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .image {
     border-radius: 10px;
 }
@@ -37,8 +47,8 @@ body {
 .pill {
     background-color: var(--yellow);
     padding: 4px 12px;
-    display: inline-block;
     border-radius: 4px;
+    align-self: start;
 }
 
 .author-wrapper {
@@ -50,4 +60,28 @@ body {
 .author-image {
     height: 32px;
     width: 32px;
+}
+
+.text-preset-1 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.text-preset-2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text-preset-3 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text-preset-4 {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.text-gray-500 {
+    color: var(--gray-500);
 }
