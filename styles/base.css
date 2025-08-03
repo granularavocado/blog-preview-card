@@ -6,6 +6,10 @@
     --white: #FFFFFF;
 }
 
+body {
+    font-family: "Figtree", sans-serif;
+}
+
 .page {
     background-color: var(--yellow);
     min-height: 100vh;
