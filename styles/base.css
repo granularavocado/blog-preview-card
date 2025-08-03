@@ -36,3 +36,14 @@
     display: inline-block;
     border-radius: 4px;
 }
+
+.author-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author-image {
+    height: 32px;
+    width: 32px;
+}
